@@ -92,7 +92,7 @@ i{
     background-color: #fff;
     margin: 25px auto 0;
     width: 60%;
-    height: 30vh;
+    min-height: 30vh;
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     font-family: 'Roboto';
