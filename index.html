@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="midea.css">
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <h1>Welcome To Password Generator</h1>
+        </div>
+    </header>
+    <section class="main-section">
+        <div class="container">
+            <h1>Instantly generate a secure, random password with the  Random Password online tool</h1>
+            <div class="input-bar">
+                <input type="text" id="input" class="input">
+                <i class="fa-regular fa-copy" id="copy"></i>
+                <i class="fa-solid fa-arrows-rotate" id="rotate"></i>
+            </div>
+            <div class="customize-box">
+                <h2>Customize your password</h2>
+                <div class="user-inputs">
+                    <div class="content-1">
+                        <h4>password length</h4>
+                        <div class="inputs-1">
+                            <div class="input-img"><input type="number" id="text-size" min="1" value="10" max="50"></div>
+                            <input id="range" type="range" value="10" min="0" max="50">
+                        </div>
+                    </div>
+                    <div class="content-2">
+                        <p class="cont2 active allcases" id="Uppercase">Uppercase</p>
+                        <p class="cont2 active allcases" id="Lowercase">Lowercase</p>
+                        <p class="cont2 active allcases" id="numbers">Numbers</p>
+                        <p class="cont2 active allcases" id="symbols">symbols</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/a4f089a2b5.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
